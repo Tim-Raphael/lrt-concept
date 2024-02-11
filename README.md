@@ -4,9 +4,7 @@ This tool implements a simple linear regression algorithm as a proof of concept.
 
 ## Formula Explanation
 
-### Linear Regression Formula
-
-The simple linear regression formula predicts the value of a dependent variable based on the value of an independent variable. It assumes a linear relationship between the variables and is represented by the equation:
+The linear regression formula predicts the value of a dependent variable based on the value of an independent variable. It assumes a linear relationship between the variables and is represented by the equation:
 
  $ȳ = (1/n) Σ yi$
 
@@ -19,7 +17,7 @@ The simple linear regression formula predicts the value of a dependent variable 
  $y = mx + b$
  
 
-#### Variables Explanation:
+### Variables Explanation:
 
 - **Dependent Variable $( y )$**:
   - Represents the variable we aim to predict based on the independent variable $x$. It is often referred to as the predicted value.
