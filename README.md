@@ -22,21 +22,21 @@ The simple linear regression formula predicts the value of a dependent variable 
 #### Variables Explanation:
 
 - **Dependent Variable $( y )$**:
-  - Represents the variable we aim to predict based on the independent variable $ x $. It is often referred to as the predicted value.
+  - Represents the variable we aim to predict based on the independent variable $x$. It is often referred to as the predicted value.
 
 - **Independent Variable $( x )$**:
-  - Denotes the variable used to make predictions about the dependent variable $ y $. It serves as the input to our model or predictor variable.
+  - Denotes the variable used to make predictions about the dependent variable $y$. It serves as the input to our model or predictor variable.
 
 - **Slope $( m )$**:
-  - Indicates the rate of change of the dependent variable $ y $ concerning the independent variable $ x $. It shows how much $ y $ changes for a unit change in $ x $.
-  - A positive slope $ m $ suggests a positive relationship between $ x $ and $ y $, while a negative slope suggests a negative relationship.
+  - Indicates the rate of change of the dependent variable $y$ concerning the independent variable $x$. It shows how much $y$ changes for a unit change in $x$.
+  - A positive slope $m$ suggests a positive relationship between $x$ and $y$, while a negative slope suggests a negative relationship.
 
 - **Intercept $( b )$**:
-  - Represents the point where the regression line intersects the y-axis when $ x = 0 $. It indicates the value of $ y $ when $ x $ is zero and signifies the baseline value of $ y $ when all other factors are zero.
+  - Represents the point where the regression line intersects the y-axis when $x = 0$. It indicates the value of $y$ when $x$ is zero and signifies the baseline value of $y$ when all other factors are zero.
 
 ## Demo
 
-The tool takes a dataset consisting of pairs of $[ x, y ]$ values and a target value $ x $. It performs simple linear regression on the dataset and returns the predicted value, slope, and intercept.
+The tool takes a dataset consisting of pairs of $[ x, y ]$ values and a target value $x$. It performs simple linear regression on the dataset and returns the predicted value, slope, and intercept.
 
 ### Input
 
@@ -45,7 +45,7 @@ The tool takes a dataset consisting of pairs of $[ x, y ]$ values and a target v
 
 ### Output
 
-- Predicted value: The predicted value of the dependent variable $ y $ for the given target value $ x $.
+- Predicted value: The predicted value of the dependent variable $y$ for the given target value $x$.
 - Slope: The slope of the regression line.
 - Intercept: The intercept of the regression line.
 
